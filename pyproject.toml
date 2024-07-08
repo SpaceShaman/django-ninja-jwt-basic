@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "django-ninja-jwt-basic"
-version = "0.1.0"
+version = "0.1.1"
 description = "Simple JWT-based authentication designed for Django and Django Ninja. This package aims to provide a minimalistic approach to JWT authentication with the least amount of dependencies, making it easy to integrate and use in your projects."
 license = "MIT"
 authors = ["SpaceShaman <spaceshaman@tuta.io>"]
 readme = "README.md"
-homepage = "https://github.com/SpaceShaman/pypi-workflow"
-repository = "https://github.com/SpaceShaman/pypi-workflow"
+homepage = "https://github.com/SpaceShaman/django-ninja-jwt-basic"
+repository = "https://github.com/SpaceShaman/django-ninja-jwt-basic"
 classifiers = [
     "Framework :: Django",
     "Framework :: Django :: 4.2",

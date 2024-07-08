@@ -1,4 +1,3 @@
-# test_check_correct_token_with_no_user_in_db_and_receive_403_response
 from datetime import datetime, timedelta
 
 import jwt
@@ -52,3 +51,16 @@ def test_check_expired_token_and_receive_401_response(user, client):
         "/me", headers={"Authorization": f"Bearer {token}"}, auth=False
     )
     assert response.status_code == 401
+
+
+def test_check_correct_token_with_no_user_in_db_and_receive_403_response(user, client):
+    exp = datetime.now() + timedelta(days=30)
+    token = jwt.encode(
+        {"user": "non_existing_user", "exp": exp},
+        settings.JWT_SECRET_KEY,
+    )
+
+    response = client.get(
+        "/me", headers={"Authorization": f"Bearer {token}"}, auth=False
+    )
+    assert response.status_code == 403
