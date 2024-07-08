@@ -1,7 +1,7 @@
 # django-ninja-jwt-basic
 
-![GitHub License](https://img.shields.io/github/license/SpaceShaman/django-ninja-jwt-basic)
-![Tests](https://img.shields.io/github/actions/workflow/status/SpaceShaman/django-ninja-jwt-basic/release.yml?label=tests)
+[![GitHub License](https://img.shields.io/github/license/SpaceShaman/django-ninja-jwt-basic)](https://github.com/SpaceShaman/django-ninja-jwt-basic?tab=MIT-1-ov-file)
+[![Tests](https://img.shields.io/github/actions/workflow/status/SpaceShaman/django-ninja-jwt-basic/release.yml?label=tests)](https://github.com/SpaceShaman/django-ninja-jwt-basic/blob/master/.github/workflows/tests.yml)
 [![Codecov](https://img.shields.io/codecov/c/github/SpaceShaman/django-ninja-jwt-basic)](https://codecov.io/gh/SpaceShaman/django-ninja-jwt-basic)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django-ninja-jwt-basic)](https://pypi.org/project/django-ninja-jwt-basic)
 [![PyPI - Versions from Framework Classifiers](https://img.shields.io/pypi/frameworkversions/django/django-ninja-jwt-basic)](https://pypi.org/project/django-ninja-jwt-basic)
@@ -19,21 +19,21 @@ pip install django-ninja-jwt-basic
 
 ## Configuration
 
-1. Add the following settings to your Django settings:
+Add the following settings to your Django settings:
 
-    ```python
-    JWT_SECRET_KEY = 'your_secret key' # Required
-    ```
+```python
+JWT_SECRET_KEY = 'your_secret key' # Required
+```
 
-2. Add the app to your `INSTALLED_APPS` in your Django settings:
+Add the app to your `INSTALLED_APPS` in your Django settings:
 
-    ```python
-    INSTALLED_APPS = [
-        ...
-        'django_ninja_jwt_basic',
-        ...
-    ]
-    ```
+```python
+INSTALLED_APPS = [
+    ...
+    'django_ninja_jwt_basic',
+    ...
+]
+```
 
 ## Usage
 
