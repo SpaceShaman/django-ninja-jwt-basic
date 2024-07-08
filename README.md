@@ -47,6 +47,27 @@ api = NinjaAPI(auth=JWTAuth())
 api.add_router('/auth', 'django_ninja_jwt_basic.router')
 ```
 
+This will add the following endpoint to your API:
+
+- `/auth/login` - POST - Login endpoint
+
+  - Request body:
+
+    ```json
+    {
+        "username": "your_username",
+        "password": "your_password"
+    }
+    ```
+  
+  - Response body:
+
+    ```json
+    {
+        "token": "your_access_token"
+    }
+    ```
+
 If you don't want protect all endpoints, you can use `JWTAuth` class directly in your endpoints or routers like below:
 
 ```python
