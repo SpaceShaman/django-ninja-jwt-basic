@@ -27,7 +27,7 @@ def login(request, data: CredentialsSchema) -> dict[str, str]:
                     "user": user.get_username(),
                     "exp": datetime.now() + timedelta(days=30),
                 },
-                settings.JWT_SECRET_KEY,
+                getattr(settings, "JWT_SECRET_KEY"),
             )
         }
     raise HttpError(403, "Incorrect username or password")
