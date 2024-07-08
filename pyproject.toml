@@ -7,6 +7,12 @@ authors = ["SpaceShaman <spaceshaman@tuta.io>"]
 readme = "README.md"
 homepage = "https://github.com/SpaceShaman/pypi-workflow"
 repository = "https://github.com/SpaceShaman/pypi-workflow"
+classifiers = [
+    "Framework :: Django",
+    "Framework :: Django :: 4.2",
+    "Framework :: Django :: 5.0",
+    "Framework :: Django :: 5.1",
+]
 
 [tool.poetry.dependencies]
 python = ">=3.10.0,<4.0.0"

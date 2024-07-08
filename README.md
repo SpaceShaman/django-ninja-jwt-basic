@@ -4,11 +4,12 @@
 ![Tests](https://img.shields.io/github/actions/workflow/status/SpaceShaman/django-ninja-jwt-basic/release.yml?label=tests)
 [![Codecov](https://img.shields.io/codecov/c/github/SpaceShaman/django-ninja-jwt-basic)](https://codecov.io/gh/SpaceShaman/django-ninja-jwt-basic)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django-ninja-jwt-basic)](https://pypi.org/project/django-ninja-jwt-basic)
+[![PyPI - Versions from Framework Classifiers](https://img.shields.io/pypi/frameworkversions/django/django-ninja-jwt-basic)](https://pypi.org/project/django-ninja-jwt-basic)
 [![PyPI - Version](https://img.shields.io/pypi/v/django-ninja-jwt-basic)](https://pypi.org/project/django-ninja-jwt-basic)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Linting: Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
-Simple JWT based authentication designed for Django and Django Ninja. This package aims to provide a minimalistic approach to JWT authentication with the least amount of dependencies, making it easy to integrate and use in your projects.
+Simple JWT-based authentication designed for Django and Django Ninja. This package aims to provide a minimalistic approach to JWT authentication with the least amount of dependencies, making it easy to integrate and use in your projects.
 
 ## Installation
 
