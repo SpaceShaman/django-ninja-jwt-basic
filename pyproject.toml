@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django-ninja-jwt-basic"
-version = "0.1.1"
+version = "0.1.2"
 description = "Simple JWT-based authentication designed for Django and Django Ninja. This package aims to provide a minimalistic approach to JWT authentication with the least amount of dependencies, making it easy to integrate and use in your projects."
 license = "MIT"
 authors = ["SpaceShaman <spaceshaman@tuta.io>"]
